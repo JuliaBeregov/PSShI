@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.w3.org/2002/07/university">
+        <rdfs:comment>Структура университета</rdfs:comment>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Accounting -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Accounting">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#University"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#ColledgeKrNU -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#ColledgeKrNU">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Department_of_Computer_and_Information_Systems -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Department_of_Computer_and_Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Department_of_Cultural_and_media_work -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Department_of_Cultural_and_media_work">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Department_of_International_Relations -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Department_of_International_Relations">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Department_of_practice_and_employment -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Department_of_practice_and_employment">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Educational_and_Research_Institute_of_Mechanics_and_Transport -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Educational_and_Research_Institute_of_Mechanics_and_Transport">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Faculties -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Faculties">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Accounting"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#University"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Faculty_of_Economics_and_Management -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Economics_and_Management">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Faculty_of_Electronics_and_Computer_Engineering -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Electronics_and_Computer_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Faculty_of_Law,_Humanities_and_Social_Sciences -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Law,_Humanities_and_Social_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Faculty_of_Natural_Sciences -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Natural_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Information-Analytical_Department -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Information-Analytical_Department">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Institute_of_Electromechanics,_energy_saving_and_control_systems -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Institute_of_Electromechanics,_energy_saving_and_control_systems">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#KKrNU_in_Komsomolsk -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#KKrNU_in_Komsomolsk">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Research_Section -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Research_Section">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Structural_units -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Structural_units">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Accounting"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#University"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#Teaching_Department -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#Teaching_Department">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Structural_units"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#University -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#University"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/university#University_Centre_of_Training_and_adaptation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/university#University_Centre_of_Training_and_adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/university#Faculties"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#ColledgeKrNU"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Educational_and_Research_Institute_of_Mechanics_and_Transport"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Economics_and_Management"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Electronics_and_Computer_Engineering"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Law,_Humanities_and_Social_Sciences"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Faculty_of_Natural_Sciences"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Institute_of_Electromechanics,_energy_saving_and_control_systems"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#KKrNU_in_Komsomolsk"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#University_Centre_of_Training_and_adaptation"/>
+        </members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Department_of_Computer_and_Information_Systems"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Department_of_Cultural_and_media_work"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Department_of_International_Relations"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Department_of_practice_and_employment"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Information-Analytical_Department"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Research_Section"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/university#Teaching_Department"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

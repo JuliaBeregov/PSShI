@@ -1,0 +1,1033 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "http://www.w3.org/2002/07/university",
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "undefined",
+        "value" : "Структура университета",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 20,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 20,
+    "axiomCount" : 43,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Факультет_экономики_и_управления"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Факультет_экономики_и_управления",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Отдел_практик_и_трудоустройства"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Отдел_практик_и_трудоустройства",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Бухгалтерия"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Бухгалтерия",
+    "subClasses" : [ "class2", "class14" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "University"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#University",
+    "subClasses" : [ "class18", "class2", "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Факультет_естественных_наук"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Факультет_естественных_наук",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "Комсомольский_политехнический_колледж_Кременчугского_национального_университета_имени_Михаила_Остроградского"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Комсомольский_политехнический_колледж_Кременчугского_национального_университета_имени_Михаила_Остроградского",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Факультеты"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Факультеты",
+    "subClasses" : [ "class7", "class19", "class10", "class6", "class11", "class1", "class16", "class5", "class4" ],
+    "superClasses" : [ "class13", "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Факультет_электроники_и_компьютерной_инженерии"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Факультет_электроники_и_компьютерной_инженерии",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Факультет_права,_гуманитарных_и_социальных_наук"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Факультет_права,_гуманитарных_и_социальных_наук",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Институт_электромеханики,_энергосбережения_и_систем_управления"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Институт_электромеханики,_энергосбережения_и_систем_управления",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Колледж_Кременчугского_национального_университета_имени_Михаила_Остроградского"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Колледж_Кременчугского_национального_университета_имени_Михаила_Остроградского",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Учебно-научный_институт_механики_и_транспорта"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Учебно-научный_институт_механики_и_транспорта",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Учебно-методический_отдел"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Учебно-методический_отдел",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Научно-исследовательская_часть"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Научно-исследовательская_часть",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Отдел_международных_связей"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Отдел_международных_связей",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Учебно-научный_центр_повышения_квалификации_и_профессиональной_адаптации"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Учебно-научный_центр_повышения_квалификации_и_профессиональной_адаптации",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Информационно-аналитический_отдел"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Информационно-аналитический_отдел",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Структурные_подрозделения"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Структурные_подрозделения",
+    "subClasses" : [ "class9", "class17", "class20", "class3", "class8", "class12", "class15" ],
+    "superClasses" : [ "class13", "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Отдел_культурно-массовой_работы"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Отдел_культурно-массовой_работы",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "Отдел_компьютерных_и_информационных_систем"
+    },
+    "iri" : "http://www.w3.org/2002/07/university#Отдел_компьютерных_и_информационных_систем",
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property2",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property1",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property4",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property25",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property35",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property74",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property87",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property89",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property9",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property5",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property112",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property11",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property10",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property12",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property96",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class11",
+    "range" : "class1"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class1"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class19"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class1"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class1"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class11"
+  }, {
+    "id" : "property102",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class8"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class16",
+    "range" : "class11"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class19",
+    "range" : "class11"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class11"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class11"
+  }, {
+    "id" : "property65",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class5"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class11"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class11"
+  }, {
+    "id" : "property67",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class5"
+  }, {
+    "id" : "property62",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class5"
+  }, {
+    "id" : "property70",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class7"
+  }, {
+    "id" : "property128",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class3"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class14"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class14"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class14"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class14"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class19"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class19"
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class19"
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class16",
+    "range" : "class19"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class19"
+  }, {
+    "id" : "property74",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class7"
+  }, {
+    "id" : "property81",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class10"
+  }, {
+    "id" : "property117",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class2"
+  }, {
+    "id" : "property118",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class2"
+  }, {
+    "id" : "property115",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class9"
+  }, {
+    "id" : "property119",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class2"
+  }, {
+    "id" : "property120",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class2"
+  }, {
+    "id" : "property121",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class2"
+  }, {
+    "id" : "property48",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class16"
+  }, {
+    "id" : "property122",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class2"
+  }, {
+    "id" : "property49",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class16"
+  }, {
+    "id" : "property123",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class2"
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class14"
+  }, {
+    "id" : "property88",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class17",
+    "range" : "class15"
+  }, {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class14"
+  }, {
+    "id" : "property87",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class15"
+  }, {
+    "id" : "property46",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class16"
+  }, {
+    "id" : "property89",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class15"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class14"
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class14"
+  }, {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class14"
+  }, {
+    "id" : "property85",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class9",
+    "range" : "class15"
+  }, {
+    "id" : "property91",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class9",
+    "range" : "class17"
+  }, {
+    "id" : "property90",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class8",
+    "range" : "class15"
+  }, {
+    "id" : "property93",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class17"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class9",
+    "range" : "class12"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class16",
+    "range" : "class1"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class1"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class19",
+    "range" : "class1"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class1"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class13"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class13"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class18"
+  }, {
+    "id" : "property59",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class4"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class8",
+    "range" : "class12"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class13"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class18"
+  }, {
+    "id" : "property112",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class9"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class15",
+    "range" : "class12"
+  }, {
+    "id" : "property99",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class8"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class12"
+  }, {
+    "id" : "property54",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class10",
+    "range" : "class4"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class12"
+  }, {
+    "id" : "property57",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class4"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class17",
+    "range" : "class12"
+  }, {
+    "id" : "property56",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class4"
+  }, {
+    "id" : "property51",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class7",
+    "range" : "class16"
+  }, {
+    "id" : "property95",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class20",
+    "range" : "class17"
+  }, {
+    "id" : "property50",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class16"
+  }, {
+    "id" : "property97",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class9",
+    "range" : "class8"
+  }, {
+    "id" : "property96",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class8",
+    "range" : "class17"
+  } ]
+}
